@@ -1,10 +1,10 @@
 const companies = [
-  "Meridian",
-  "Vertex",
-  "Luminos",
-  "Atlas Group",
-  "Pinnacle",
-  "Strata",
+  "Caldera",
+  "CB Insights",
+  "Skiff",
+  "Halliday",
+  "Arbitrum",
+  "Cursor",
 ];
 
 export default function LogosBar() {
