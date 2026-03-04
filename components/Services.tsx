@@ -14,7 +14,7 @@ const services = [
   {
     title: "Implementation Sprint",
     timeline: "4–10 weeks",
-    featured: true,
+    featured: false,
     deliverables: [
       "Production-ready AI system or agent",
       "Custom model fine-tuning & evaluation",

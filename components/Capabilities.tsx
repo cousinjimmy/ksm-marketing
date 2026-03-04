@@ -76,7 +76,7 @@ export default function Capabilities() {
           {capabilities.map((cap) => (
             <div
               key={cap.title}
-              className="group rounded-2xl border border-gray-200 bg-white p-8 hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5 transition-all"
+              className="rounded-2xl border border-gray-200 bg-white p-8 hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5 transition-all"
             >
               <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-silver text-ink">
                 {cap.icon}
@@ -86,9 +86,6 @@ export default function Capabilities() {
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-gray-600">
                 {cap.description}
-              </p>
-              <p className="mt-4 text-sm font-medium text-accent opacity-0 group-hover:opacity-100 transition-opacity">
-                Learn more&ensp;&rarr;
               </p>
             </div>
           ))}

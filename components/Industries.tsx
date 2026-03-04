@@ -47,6 +47,30 @@ const sectors = [
     description:
       "Predictive maintenance, quality inspection automation, and supply chain optimization powered by AI.",
   },
+  {
+    emoji: "🤖",
+    name: "AI & Machine Learning",
+    description:
+      "Help AI-native companies scale infrastructure, improve model performance, and build production-grade ML pipelines.",
+  },
+  {
+    emoji: "☁️",
+    name: "SaaS & Software",
+    description:
+      "Embed AI features into your product, automate customer success workflows, and unlock new revenue with intelligent capabilities.",
+  },
+  {
+    emoji: "🎓",
+    name: "Education",
+    description:
+      "Adaptive learning platforms, automated grading systems, and intelligent student engagement tools for modern institutions.",
+  },
+  {
+    emoji: "⚡",
+    name: "Energy & Utilities",
+    description:
+      "Demand forecasting, grid optimization, and predictive asset management powered by AI for energy providers.",
+  },
 ];
 
 export default function Industries() {
